@@ -1,0 +1,20 @@
+.nav{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between  ;
+    padding: 0 50px;
+}
+.logo{
+    border-radius:50%;
+    width: 150px;
+    height: 150px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+}
+.navbar-items{
+    margin: 0 30px 0 0;
+    font-size: 20px;
+}

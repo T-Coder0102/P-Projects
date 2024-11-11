@@ -1,0 +1,17 @@
+.testimonial{
+    display: flex;
+    position: relative;
+    width: 100%;
+
+}
+.review{
+    width: 70%;
+}
+.reviewAdd{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+
+}
+.formReview{
+}

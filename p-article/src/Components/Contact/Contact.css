@@ -1,0 +1,69 @@
+.contact{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.form{
+    border: 0.5px solid gray;  
+    padding: 50px ;
+    margin: 0 0 50px 0;
+    max-width: 500px;
+    border-radius: 50px;
+}
+.title{
+    font-size: 30px;
+    margin: 0 0 20px 0;
+}
+.subtitle{
+    font-size: 20px;
+    margin: 0 0 20px 0;
+}
+p{
+    text-align: center;
+}
+.formFill{
+    display: flex;
+      
+    flex-direction: column;
+}
+.nameList{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.name{
+    width: 45%;
+    margin: 0 0 20px 0;
+    border-radius: 30px;
+    border: 0.5px solid black;
+}
+.email, .phoneNumber, .message{
+    width: 100%;
+    margin: 0 0 20px 0;
+    border-radius: 30px;
+    border: 0.5px solid black;
+
+}
+.formFill input{
+    padding: 5px 30px;
+}
+.btn{
+    cursor: pointer;
+    padding: 10px 30px;
+    background-color: rgb(16, 192, 16);
+    border: none;
+    color: #ffffff;
+    border-radius: 30px;
+    font-size: 15px;
+}
+.socialmedia{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+.socialmedia img{
+    width: 40px;
+    margin: 0 20px 0;
+}
